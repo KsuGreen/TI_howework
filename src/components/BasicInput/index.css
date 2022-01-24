@@ -1,0 +1,21 @@
+.Input {
+    border-radius: 10px;
+    height: 30px;
+    font-size: 18px;
+    border: 3px solid #37cfe1;
+}
+
+.InputWrapper:first-child {
+    margin-top: 15px;
+}
+
+.InputWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.InputName {
+    margin-bottom: 5px;
+    font-size: 21px;
+}

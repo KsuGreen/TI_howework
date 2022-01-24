@@ -1,0 +1,23 @@
+.Button {
+    border-radius: 10px;
+    height: 40px;
+    border: 0;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #37cfe1;
+}
+
+.Button:last-child {
+    margin-right: 0;
+}
+
+.Button:hover {
+    background-color: #31bacb;
+}
+
+.Button:active {
+    background-color: #2ba7b7;
+}

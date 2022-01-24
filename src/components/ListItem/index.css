@@ -1,0 +1,29 @@
+.ListItem {
+    border-radius: 15px;
+    margin-top: 17px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #c6c6c6;
+}
+
+.ListItem-Info {
+    flex-grow: 2;
+}
+
+.ListItem-Info {
+    width: 75%;
+}
+
+.ListItem-Description {
+    font-size: 14px;
+    color: grey;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ListItem-EditLink {
+    margin-right: 10px;
+}
